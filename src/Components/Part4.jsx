@@ -3,7 +3,7 @@ import Button from "./Button";
 const Part4 = () => {
   return (
     <>
-      <main className="h-fit w-full bg-[#efeae3]">
+      <main className=" h-fit w-full bg-[#efeae3]">
         <div className=" px-6 h-[9vh] flex  items-center">
           <span className="bg-orange-500 h-3 w-3 rounded-full mr-2"></span>
           <div className="  text-center">FEATURED PROJECTS</div>
