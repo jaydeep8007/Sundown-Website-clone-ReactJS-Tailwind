@@ -21,7 +21,7 @@ const FirstPart = () => {
               end-to-end experiences and environments.
             </span>
           </div>
-          <div className="left text-[175px] font-semibold font-[Neuehaasdisplay mediu] tracking-tighter h-full w-1/2  flex  flex-col items-end  pr-20 mt-20 ">
+          <div className="left text-[11.8vw] font-semibold font-[Neuehaasdisplay mediu] tracking-tighter  h-full w-1/2  flex  flex-col items-end  pr-20 mt-[12vh] ">
             <span className="   -mb-32">SPACES</span>
             <span className="  -mb-32">THAT</span>
             <span className="  -mb-6">INSPIRE</span>

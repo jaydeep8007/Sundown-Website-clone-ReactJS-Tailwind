@@ -11,7 +11,7 @@ import { Pagination } from "swiper/modules";
 export default function App() {
   return (
     <>
-      <div className="bg-[#EFEAE3] h-[90vh] w-full px-20  py-20">
+      <div className="bg-[#EFEAE3] h-[100vh] w-full px-20  py-20">
         <div className="  h-[9vh] flex  items-center">
           <span className="bg-orange-500 h-3 w-3 rounded-full mr-2"></span>
           <div className="  text-center">WHO WE WORK WITH</div>
@@ -58,7 +58,7 @@ export default function App() {
               <div className="px-6 flex-shrink  mr-7  border-l border-gray-400">
                 <img
                   className="pb-7"
-                  src="/ImageSlider/3Arc’teryx.svg"
+                  src="/ImageSlider/3Arcteryx.svg"
                   alt="1"
                 />
                 <span>
@@ -75,7 +75,7 @@ export default function App() {
                 <span>
                   Design and Production partner for Hunter Holiday 2022 Pop-in
                   at Nordstrom 57th St, New York, including activations in
-                  Women’s, Men’s and Kid’s zones. Thirty-five (35) additional
+                  Womens, Mens and Kids zones. Thirty-five (35) additional
                   smaller take-downs in Nordstrom stores across the US. Concept
                   design for Holiday boot customization events in stores across
                   winter 2022.
@@ -110,8 +110,8 @@ export default function App() {
                   Week Pop-Up space. In Partnership with B-Reel scope including
                   creation of Final Design, Design Assets, 3D Renders,
                   Production design, Production/Partner oversight and creation
-                  of a two (2) story pop-up for Afterpay’s clients such as
-                  Crocs, JD Sports, Container Store, & Revolve.
+                  of a two (2) story pop-up for Afterpays clients such as Crocs,
+                  JD Sports, Container Store, & Revolve.
                 </span>
               </div>
             </SwiperSlide>

@@ -1,15 +1,18 @@
 const Footer = () => {
   return (
     <nav className=" text-[#efeae3] fixed bottom-0 -z-10  h-[100vh] w-full bg-black ">
-      <div className="floatinfPart1 blur-3xl  ">
+      <div className="floatinfPart1 blur-2xl  absolute -top-[20vh] -rotate-[5deg] ">
         <div className="floating1 absolute  -left-20 -bottom-56 h-[50vh] w-[90vw] rounded-b-full bg-[#FE4711]"></div>
-        <div className="animated-float2 absolute  -left-8 -bottom-[350px] h-[65vh] w-[56vw] rounded-r-full  bg-[#FE4711]"></div>
-        <div className="animated-float1 absolute -left-28 -bottom-[400px]  h-[40vh] w-[35vw] rounded-r-full bg-[#FE4711] "></div>
+        <div className="animated-float2 absolute  -left-8 -bottom-[350px] h-[70vh] w-[56vw] rounded-r-full  bg-[#FE4711]"></div>
+        <div className="animated-float1 absolute -left-28 -bottom-[400px]  h-[60vh] w-[35vw] rounded-r-full bg-[#FE4711] "></div>
       </div>
-      <div className="floatinfPart1 blur-3xl  ">
-        <div className="floating1 absolute  -right-20 -bottom-64 h-[600vh] w-[40vw] rounded-b-full bg-[#FE4711]"></div>
-        <div className="animated-float2 absolute  -right-20 -bottom-[400px] h-[65vh] w-[65vw] rounded-l-full bg-[#FE4711]"></div>
-        <div className="animated-float1 absolute right-0 -bottom-[450px]  h-[80vh] w-[35vw] rounded-l-full bg-[#FE4711] "></div>
+      <div className="floatinfPart1 blur-2xl absolute -right-[5vw] rotate-[10deg]    ">
+        <div className="floating1 absolute  -right-20 -bottom-64 h-[600vh] w-[50vw] rounded-b-full bg-[#FE4711]"></div>
+        <div className="animated-float2 absolute  -right-[20vw] -bottom-[400px] h-[65vh] w-[80vw] rounded-l-full bg-[#FE4711]"></div>
+        <div
+          className="animated-float1 absolute -right-[10vw] -bottom-[450px]  h-[80vh] w-[5
+          5vw] rounded-l-full bg-[#FE4711] "
+        ></div>
       </div>
       <div className="flex flex-col justify-between">
         <div className="flex justify-between px-[7vw] mt-[12vh]">
@@ -30,7 +33,7 @@ const Footer = () => {
             />
           </span>
         </div>
-        <div className=" -m-8 text-center font-bold text-[330px] text-[#efeae3] ">
+        <div className=" -m-8 text-center font-bold text-[21vw] text-[#efeae3] ">
           Sundown
         </div>
       </div>
