@@ -7,17 +7,32 @@ import "../App.css";
 
 // import required modules
 import { Pagination } from "swiper/modules";
+import { useEffect, useState } from "react";
 
 export default function App() {
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <>
-      <div className="bg-[#EFEAE3] h-[100vh] w-full px-20  py-20">
+      <div className="bg-[#EFEAE3] h-[70vh] sm:h-[100vh] w-full px-10 py-10 sm:px-20  sm:py-20">
         <div className="  h-[9vh] flex  items-center">
           <span className="bg-orange-500 h-3 w-3 rounded-full mr-2"></span>
           <div className="  text-center">WHO WE WORK WITH</div>
         </div>
         <Swiper
-          slidesPerView={4}
+          slidesPerView={width > 600 ? 4 : 1}
           centeredSlides={false}
           spaceBetween={30}
           grabCursor={true}
@@ -25,11 +40,11 @@ export default function App() {
             clickable: true,
           }}
           modules={[Pagination]}
-          className="mySwiper  h-full w-full  "
+          className="mySwiper  sm:h-full sm:w-full  "
         >
           <div className="  ">
             <SwiperSlide className="slide-1  py-6 text-base">
-              <div className="px-6 flex-shrink  mr-7  border-l border-gray-400">
+              <div className="px-6 flex flex-col  mr-7  border-l border-gray-400">
                 <img className="pb-10" src="/ImageSlider/1Nike.svg" alt="1" />
                 <span>
                   Retained Production support across retail and events in NY,
@@ -40,7 +55,7 @@ export default function App() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="slide-2  py-6 text-base">
-              <div className="px-6 flex-shrink  mr-7  border-l border-gray-400">
+              <div className="px-6 flex flex-col  mr-7  border-l border-gray-400">
                 <img
                   className="pb-7"
                   src="/ImageSlider/2Converse.svg"
@@ -55,7 +70,7 @@ export default function App() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="slide-3  py-6 text-base">
-              <div className="px-6 flex-shrink  mr-7  border-l border-gray-400">
+              <div className="px-6 flex flex-col  mr-7  border-l border-gray-400">
                 <img
                   className="pb-7"
                   src="/ImageSlider/3Arcteryx.svg"
@@ -70,7 +85,7 @@ export default function App() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="slide-4  py-6 text-base">
-              <div className="px-6 flex-shrink  mr-7  border-l border-gray-400">
+              <div className="px-6 flex flex-col  mr-7  border-l border-gray-400">
                 <img className="pb-7" src="/ImageSlider/4Hunter.svg" alt="1" />
                 <span>
                   Design and Production partner for Hunter Holiday 2022 Pop-in
@@ -83,7 +98,7 @@ export default function App() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="slide-5  py-6 text-base">
-              <div className="px-6 flex-shrink  mr-7  border-l border-gray-400">
+              <div className="px-6 flex flex-col  mr-7  border-l border-gray-400">
                 <img
                   className="pb-7"
                   src="/ImageSlider/5MediaLink.svg"
@@ -99,7 +114,7 @@ export default function App() {
               </div>
             </SwiperSlide>
             <SwiperSlide className="slide-6  py-6 text-base">
-              <div className="px-6 flex-shrink  mr-7  border-l border-gray-400">
+              <div className="px-6 flex flex-col  mr-7  border-l border-gray-400">
                 <img
                   className="pb-7"
                   src="/ImageSlider/6AfterPay.svg"

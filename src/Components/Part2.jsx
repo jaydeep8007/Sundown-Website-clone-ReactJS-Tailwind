@@ -1,9 +1,9 @@
 const SecondPart = () => {
   return (
     <main className=" bg-[#efeae3] ">
-      <div className="  pt-24 ">
+      <div className=" py-[8vw] sm:pt-24 ">
         <video
-          className="rounded-3xl scale-95 "
+          className="rounded-3xl  scale-95 "
           muted
           loop
           autoPlay
