@@ -3,7 +3,7 @@ import Button from "./Button";
 const FirstPart = () => {
   return (
     <main>
-      <div className="min-h-[50vh] sm:min-h-[100vh] w-full bg-[#efeae3]">
+      <div className="h-[90vh] sm:min-h-[100vh] w-full bg-[#efeae3]">
         <nav className="h-[19vh] flex justify-between items-center ">
           <div>
             <img
@@ -20,7 +20,7 @@ const FirstPart = () => {
         </nav>
         <div className="h-[81vh] flex flex-col sm:flex-row relativew ">
           <div className="left h-full  sm:w-1/2  flex items-end">
-            <span className="h-[24vh] w-full sm:w-[26vw] mx-10 mb-6 font-bold text-xl sm:text-2xl  ">
+            <span className="h-[24vh] w-full sm:w-[26vw] mx-10 mb-6 font-bold text-2xl sm:text-2xl  ">
               Sundown is a multi-disciplinary studio focused on creating unique,
               end-to-end experiences and environments.
             </span>

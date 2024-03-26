@@ -1,6 +1,6 @@
 const MovingLine = () => {
   return (
-    <main className=" bg-[#efeae3] overflow-hidden pb-[20vw] sm:pb-0 ">
+    <main className=" bg-[#efeae3] overflow-hidden pt-[10vw] pb-[20vw] sm:pb-0 ">
       <div className="move text-[15vw] flex ">
         <div className=" flex flex-row items-center  font-bold font-[Neuehaasdisplay mediu] tracking-tighter ">
           <div className="mx-12">EXPERIENCES</div>

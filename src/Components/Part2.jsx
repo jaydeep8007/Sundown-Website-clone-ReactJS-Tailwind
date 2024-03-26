@@ -1,7 +1,7 @@
 const SecondPart = () => {
   return (
     <main className=" bg-[#efeae3] ">
-      <div className=" py-[8vw] sm:pt-24 ">
+      <div className=" py-[20vw] sm:pt-24 ">
         <video
           className="rounded-3xl  scale-95 "
           muted
