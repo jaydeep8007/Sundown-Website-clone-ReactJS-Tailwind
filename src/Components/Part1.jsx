@@ -20,7 +20,7 @@ const FirstPart = () => {
         </nav>
         <div className="h-[81vh] flex flex-col sm:flex-row relativew ">
           <div className="left h-full  sm:w-1/2  flex items-end">
-            <span className="h-[24vh] w-full sm:w-[26vw] mx-10 mb-6 font-bold text-2xl sm:text-2xl  ">
+            <span className="h-[24vh] w-full sm:w-[26vw] mx-10 mb-6 font-bold text-xl sm:text-2xl  ">
               Sundown is a multi-disciplinary studio focused on creating unique,
               end-to-end experiences and environments.
             </span>
